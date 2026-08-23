@@ -1,0 +1,179 @@
+.loginPage {
+    min-height: calc(100vh - 64px);
+  
+    display: flex;
+    justify-content: center;
+  
+    padding: 40px 20px 100px;
+  }
+  
+  .loginContainer {
+    width: 100%;
+    max-width: 380px;
+  }
+  
+  /* 제목 */
+  
+  .title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .title > i {
+    display: block;
+  
+    margin-bottom: 12px;
+  
+    font-size: 48px;
+    color: #f97316;
+  }
+  
+  .title h1 {
+    margin: 0 0 8px;
+  
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    color: #222;
+  }
+  
+  .title p {
+    margin: 0;
+  
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Form */
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .inputGroup label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .inputGroup label i {
+    color: #f97316;
+  }
+  
+  /* Input */
+  
+  .inputWrapper {
+    position: relative;
+  }
+  
+  .inputIcon {
+    position: absolute;
+  
+    left: 14px;
+    top: 50%;
+  
+    transform: translateY(-50%);
+  
+    font-size: 18px;
+    color: #999;
+  }
+  
+  .inputWrapper input {
+    width: 100%;
+    height: 52px;
+  
+    padding: 0 16px 0 44px;
+  
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  
+    outline: none;
+  
+    font-family: inherit;
+    font-size: 14px;
+  
+    transition: border-color 0.2s;
+  }
+  
+  .inputWrapper input:focus {
+    border-color: #f97316;
+  }
+  
+  .inputWrapper input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Login Button */
+  
+  .loginButton {
+    width: 100%;
+    height: 52px;
+  
+    margin-top: 8px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  
+    border: none;
+    border-radius: 10px;
+  
+    background-color: #f97316;
+    color: white;
+  
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+  
+    cursor: pointer;
+  
+    transition: background-color 0.2s;
+  }
+  
+  .loginButton:hover {
+    background-color: #ea580c;
+  }
+  
+  .loginButton i {
+    font-size: 18px;
+  }
+  
+  /* Links */
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 12px;
+  
+    margin-top: 24px;
+  
+    font-size: 13px;
+  }
+  
+  .links a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    color: #f97316;
+  }
+  
+  .links span {
+    color: #ddd;
+  }
