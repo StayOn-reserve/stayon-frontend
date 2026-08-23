@@ -1,0 +1,98 @@
+.home {
+    min-height: calc(100vh - 64px);
+    padding: 48px 20px 100px;
+    background-color: #ffffff;
+  }
+  
+  /* Hero */
+  
+  .hero {
+    padding: 40px 8px 48px;
+  }
+  
+  .hero h1 {
+    margin: 0 0 20px;
+  
+    font-family: 'Pretendard', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.8px;
+  
+    color: #222;
+  }
+  
+  .hero p {
+    margin: 0;
+  
+    font-family: 'Pretendard', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: -0.3px;
+  
+    color: #777;
+  }
+  
+  /* Services */
+  
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+  
+    padding: 20px;
+  
+    border: 1px solid #eeeeee;
+    border-radius: 16px;
+  
+    text-decoration: none;
+  
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card > i:first-child {
+    margin-right: 16px;
+  
+    font-size: 28px;
+    color: #f97316;
+  }
+  
+  .card h2 {
+    margin: 0 0 5px;
+  
+    font-family: 'Pretendard', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+  
+    color: #222;
+  }
+  
+  .card p {
+    margin: 0;
+  
+    font-family: 'Pretendard', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+  
+    color: #888;
+  }
+  
+  .arrow {
+    margin-left: auto;
+  
+    font-size: 18px;
+    color: #aaaaaa;
+  }

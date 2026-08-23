@@ -15,8 +15,8 @@ export default function Header() {
           />
         </Link>
 
-        <Link href="/login" className={styles.login}>
-          로그인
+        <Link href="/login" className={styles.login} aria-label="로그인">
+          <i className="bi bi-person-circle"></i>
         </Link>
       </div>
     </header>

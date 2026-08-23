@@ -1,21 +1,51 @@
 .navigation {
     position: fixed;
-  
     bottom: 0;
-    left: 50%;
+    left: 0;
   
     width: 100%;
-    max-width: 480px;
-    height: 64px;
-  
-    transform: translateX(-50%);
+    height: 72px;
   
     background-color: white;
     border-top: 1px solid #ddd;
   
+    z-index: 1000;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 480px;
+    height: 100%;
+    margin: 0 auto;
+  
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
   
-    z-index: 1000;
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    gap: 5px;
+  
+    text-decoration: none;
+    font-size: 14px;
+  
+    color: #777;
+  }
+  
+  .item i {
+    font-size: 24px;
+    color: #777;
+  }
+  
+  .active {
+    color: #f97316;
+  }
+  
+  .active i {
+    color: #f97316;
   }
