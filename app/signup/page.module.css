@@ -1,0 +1,287 @@
+.signupPage {
+    min-height: calc(100vh - 64px);
+  
+    display: flex;
+    justify-content: center;
+  
+    padding: 40px 20px 100px;
+  }
+  
+  .signupContainer {
+    width: 100%;
+    max-width: 380px;
+  }
+  
+  /* 제목 */
+  
+  .title {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  
+  .title > i {
+    display: block;
+  
+    margin-bottom: 12px;
+  
+    font-size: 46px;
+    color: #f97316;
+  }
+  
+  .title h1 {
+    margin: 0 0 8px;
+  
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+  
+    color: #222;
+  }
+  
+  .title p {
+    margin: 0;
+  
+    font-size: 14px;
+    line-height: 1.6;
+  
+    color: #888;
+  }
+  
+  /* Form */
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .inputGroup label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  
+    font-size: 14px;
+    font-weight: 600;
+  
+    color: #444;
+  }
+  
+  .inputGroup label i {
+    color: #f97316;
+  }
+  
+  /* Input */
+  
+  .inputWrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .inputIcon {
+    position: absolute;
+  
+    left: 14px;
+    top: 50%;
+  
+    transform: translateY(-50%);
+  
+    font-size: 18px;
+    color: #999;
+  }
+  
+  .inputWrapper input {
+    width: 100%;
+    height: 52px;
+  
+    padding: 0 16px 0 44px;
+  
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  
+    outline: none;
+  
+    font-family: inherit;
+    font-size: 14px;
+  
+    box-sizing: border-box;
+  }
+  
+  .inputWrapper input:focus {
+    border-color: #f97316;
+  }
+  
+  .inputWrapper input::placeholder {
+    color: #aaa;
+  }
+  
+  /* 이메일 + 중복확인 */
+  
+  .inputWithButton {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .inputWithButton .inputWrapper {
+    flex: 1;
+  }
+  
+  .checkButton {
+    flex-shrink: 0;
+  
+    width: 82px;
+    height: 52px;
+  
+    border: 1px solid #f97316;
+    border-radius: 10px;
+  
+    background-color: white;
+    color: #f97316;
+  
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+  
+    cursor: pointer;
+  }
+  
+  .checkButton:hover {
+    background-color: #fff7ed;
+  }
+  
+  /* 사업자 정보 */
+  
+  .businessSection {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  
+    padding: 20px;
+  
+    border: 1px solid #eee;
+    border-radius: 14px;
+  
+    background-color: #fafafa;
+  }
+  
+  .sectionTitle {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  
+    font-size: 16px;
+    font-weight: 700;
+  
+    color: #333;
+  }
+  
+  .sectionTitle i {
+    color: #f97316;
+  }
+  
+  /* 사업자 정보 확인 */
+  
+  .businessCheckButton {
+    width: 100%;
+    height: 48px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+  
+    border: 1px solid #f97316;
+    border-radius: 10px;
+  
+    background-color: white;
+    color: #f97316;
+  
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+  
+    cursor: pointer;
+  }
+  
+  .businessCheckButton:hover {
+    background-color: #fff7ed;
+  }
+  
+  /* 성공 메시지 */
+  
+  .success {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+    font-size: 12px;
+    color: #16a34a;
+  }
+  
+  /* 회원가입 버튼 */
+  
+  .signupButton {
+    width: 100%;
+    height: 52px;
+  
+    margin-top: 4px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  
+    border: none;
+    border-radius: 10px;
+  
+    background-color: #f97316;
+    color: white;
+  
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+  
+    cursor: pointer;
+  }
+  
+  .signupButton:hover {
+    background-color: #ea580c;
+  }
+  
+  /* 로그인 링크 */
+  
+  .loginLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  
+    margin-top: 24px;
+  
+    font-size: 13px;
+    color: #888;
+  }
+  
+  .loginLink a {
+    color: #f97316;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .loginLink a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+    font-size: 12px;
+    color: #dc2626;
+  }
